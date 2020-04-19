@@ -18,7 +18,21 @@ def main():
     starting to write your own code. You should also delete this
     comment and replace it with a better, more descriptive one.
     """
-
+    while left_is_blocked():
+        put_beeper()
+        move()
+    turn_left()
+    move()
+    while left_is_blocked():
+        put_beeper()
+        move()
+    turn_left()
+    move()
+    while left_is_blocked():
+        put_beeper()
+        move()
+    turn_left()
+    move()
 
 # Turns Karel 90 degrees to the right.
 def turn_right():
