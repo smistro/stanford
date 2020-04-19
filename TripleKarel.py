@@ -104,10 +104,7 @@ def finite_seq3():
     put_beeper()
     move()
 
-# Sequence Four
-def finite_seq4():
-    move()
-    put_beeper
+# Aprendendo Git na prática. 
 
 
     pass
