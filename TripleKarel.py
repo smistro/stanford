@@ -31,8 +31,57 @@ def main():
     while left_is_blocked():
         put_beeper()
         move()
+    put_beeper()
+    turn_right()
+    move()
+    while left_is_blocked():
+        put_beeper()
+        move()
     turn_left()
     move()
+    while left_is_blocked():
+        put_beeper()
+        move()
+    turn_left()
+    move()
+    while left_is_blocked():
+        put_beeper()
+        move()
+    turn_right()
+    while left_is_blocked():
+        put_beeper()
+        move()
+    turn_left()
+    move()
+    while left_is_blocked():
+        put_beeper()
+        move()
+    turn_left()
+    move()
+    while left_is_blocked():
+        put_beeper()
+        move()
+    turn_left()
+    move()
+    while left_is_blocked():
+        put_beeper()
+        move()
+    turn_right()
+    put_beeper()
+    move()
+    while left_is_blocked():
+        put_beeper()
+        move()
+    turn_right()
+    put_beeper()
+    move()
+    while left_is_blocked():
+        put_beeper()
+        move()
+    turn_left()
+    move()
+    
+
 
 # Turns Karel 90 degrees to the right.
 def turn_right():
